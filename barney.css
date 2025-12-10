@@ -17,8 +17,21 @@ header {
 
 
 /* CSS Miku */
-#miku-general {
 
+#miku-body {
+    background-color: var(--c4-Accent2);
+
+}
+
+#miku-main {
+    background-color: var(--c1-Primary);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#miku-general {
+    background-color: red;
+    height: 200px;
 }
 
 .miku-song {
