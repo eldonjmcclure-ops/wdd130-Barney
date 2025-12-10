@@ -24,9 +24,10 @@ header {
 }
 
 #miku-main {
+    background-color: var(--c2-Secondary);
+    display: grid;
     background-color: var(--c1-Primary);
-    display: flex;
-    flex-wrap: wrap;
+    height:
 }
 
 #miku-general {
