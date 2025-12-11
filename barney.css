@@ -27,7 +27,7 @@ header {
     background-color: var(--c2-Secondary);
     display: grid;
     background-color: var(--c1-Primary);
-    height:
+    grid-template-columns: 1fr 1fr;
 }
 
 #miku-general {
