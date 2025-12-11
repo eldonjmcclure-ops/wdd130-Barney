@@ -15,6 +15,10 @@ header {
 
 }
 
+footer {
+
+}
+
 
 /* CSS Miku */
 
@@ -24,19 +28,56 @@ header {
 }
 
 #miku-main {
-    background-color: var(--c2-Secondary);
     display: grid;
     background-color: var(--c1-Primary);
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 #miku-general {
-    background-color: red;
+    background-color: var(--c2-Secondary);
     height: 200px;
+    grid-row: 1 / 6;
+    height: 700px;
+    margin: 10px;
 }
 
-.miku-song {
-    
+#miku-song1{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#miku-song2{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-right: 10px;
+}
+
+#miku-song3{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-right: 10px;
+}
+
+#miku-song4{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-right: 10px;
+}
+
+#miku-song5{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 
